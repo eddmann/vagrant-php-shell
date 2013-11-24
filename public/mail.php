@@ -1,0 +1,1 @@
+<?php var_dump(mail('test@email.com', 'Testing...', 'Testing...'));
