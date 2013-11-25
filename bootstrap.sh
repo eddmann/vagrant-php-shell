@@ -119,6 +119,7 @@ mv composer.phar /usr/local/bin/composer
 echo "alias v=\"clear;cd /vagrant\"" >> /home/vagrant/.bashrc
 echo "alias c=\"clear\"" >> /home/vagrant/.bashrc
 echo "alias l=\"ls -lah\"" >> /home/vagrant/.bashrc
+echo "alias ..=\"cd ..\"" >> /home/vagrant/.bashrc
 source /home/vagrant/.bashrc
 
 exit 0
